@@ -1,4 +1,4 @@
-Some Screenshot of the application:-
+## Some Screenshot of the application:-
 
 ![Screenshot (288)](https://user-images.githubusercontent.com/85151795/218102200-7bf27a00-5439-4f02-9e25-888cf6d5731d.png)
 
