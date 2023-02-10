@@ -1,0 +1,81 @@
+/* .register{
+    height: calc(100vh - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    color: white;
+} */
+.registerTitle{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+/* .registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+} */
+.registerForm > label{
+    margin: 10px 0;
+}
+/* .registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+} */
+.registerButton{
+    align-self: center;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 0px 24px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.registerButton:hover{
+    background: rgb(198, 198, 198);
+    color: black;
+}
+.registerButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(204, 149, 149);
+}
+.registerLoginButton{
+    position: absolute;
+    top: 7%;
+    right: 6%;
+    align-self: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 0px 24px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.registerLoginButton:hover{
+    background: rgb(198, 198, 198);
+    color: black;
+}

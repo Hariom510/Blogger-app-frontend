@@ -1,0 +1,79 @@
+/* .login{
+    height: calc(100vh - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    color: white;
+} */
+.loginTitle{
+    font-size: 50px;
+}
+/* .loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+} */
+.loginForm > label{
+    margin: 10px 0;
+}
+/* .loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+} */
+.loginButton{
+    align-self: center;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 0px 24px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.loginButton:hover{
+    background: rgb(198, 198, 198);
+    color: black;
+}
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(204, 149, 149);
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 12%;
+    right: 6%;
+    align-self: center;
+    /* margin-top: 20px; */
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 0px 24px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.loginRegisterButton:hover{
+    background: rgb(198, 198, 198);
+    color: black;
+
+}

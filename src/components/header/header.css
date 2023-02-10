@@ -1,0 +1,47 @@
+.header{
+    margin-top: -20px;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    /* color: #444; */
+    color: whitesmoke
+}
+.headerTitleSm{
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
+}
+.headerTitleMd{
+    position: absolute;
+    top: 38%;
+    font-size: 16px;
+}
+.headerTitleLg{
+    position: absolute;
+    top: 30%;
+    font-size: 80px;
+    
+}
+/* .mainImg1{
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    top: 25%;
+    left: 2%;
+} */
+/* .mainImg2{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 40%;
+    right: 10%;
+} */
+.headerImg{ 
+    /* width: 100%; */
+    height: 530px;
+    /* margin-top: 45px; */
+    /* object-fit: cover; */
+}
