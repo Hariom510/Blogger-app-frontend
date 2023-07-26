@@ -34,3 +34,5 @@ The backend part of this application is available in a separate repository. You 
 
 ## Contributing
 Contributions are welcome! If you find any issues or want to enhance the app, please feel free to open an issue or submit a pull request.
+
+Happy coding! 🎉
